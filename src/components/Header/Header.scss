@@ -1,0 +1,46 @@
+
+.header {
+	height: 70px;
+	background-color: #101010;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	transition: ease all 0.3s;
+	&--glasses {
+		height: 100px;
+		button {
+			height: 65px !important;
+			width: 200px !important;
+			font-size: 22px !important;
+		}
+		.header__logo {
+			font-size: 34px;
+		}
+	}
+}
+
+.header__logo {
+	font-family: "Alegreya Sans SC";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin-left: 61px;
+	cursor: pointer;
+	transition: ease all 0.3s;
+	&:hover {
+		color: #252525;
+	}
+}
+
+.header__navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	margin-right: 61px;
+}
+.header__navigation_item {
+}

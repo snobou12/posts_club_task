@@ -1,0 +1,24 @@
+
+.custom_button {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	cursor: pointer;
+	transition: ease all 0.3s;
+	&--primary {
+		background-color: #ffffff;
+		color: #000000;
+		&:hover {
+			background-color: #252525;
+			color: #ffffff;
+		}
+	}
+	&--secondary {
+		background-color: #101010;
+		color: #ffffff;
+		&:hover {
+			background-color: #cccccc;
+			color: #000000;
+		}
+	}
+}

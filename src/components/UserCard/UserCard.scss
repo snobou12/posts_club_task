@@ -1,0 +1,44 @@
+
+.user_card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: white;
+	padding: 17px 70px 17px 17px;
+	&--glasses {
+		.user_card__username {
+			div {
+				font-size: 22px;
+			}
+		}
+		.user_card__city {
+			font-size: 21px;
+		}
+		.user_card__view {
+			button {
+				height: 65px !important;
+				width: 200px !important;
+				font-size: 18px !important;
+			}
+		}
+	}
+}
+.user_card__username {
+	display: flex;
+	gap: 5px;
+	div {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 17px;
+		line-height: 23px;
+		text-transform: capitalize;
+	}
+}
+
+.user_card__city {
+	color: rgba(0, 0, 0, 0.41);
+	margin-bottom: 35px;
+}
+.user_card__view {
+}
